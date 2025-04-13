@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+
+.font-des {
+  font-family: 'Mali', cursive;
+}
+
+@media screen and (min-width: 450px) {
+  .font-des {
+    font-size: 50px;
+
+  }
+  .img {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .font-des {
+    font-size: 30px;
+  }
+  .img {
+    width: 500px;
+  }
+}
+
+.col-md-4:hover {
+  transform: scale(1.25);
+}
+
+.bg-600 {
+  background-color: #f8f9fa;
+}

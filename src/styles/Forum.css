@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+
+.font-des {
+  font-family: 'Mali', cursive;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.w-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fs-md-0 {
+  font-size: 0.875rem; /* Tương đương với fs-0 trên medium */
+}
+
+.fs-lg-1 {
+  font-size: 1rem; /* Tương đương với fs-1 trên large */
+}
+
+@media screen and (max-width: 768px) {
+  .fs-md-0 {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .fs-lg-1 {
+    font-size: 1.25rem;
+  }
+}
