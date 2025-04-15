@@ -5,6 +5,7 @@ import Practice from './pages/Practice';
 import MockTest from './pages/MockTest';
 import Forum from './pages/Forum';
 import AboutUs from './pages/AboutUs';
+import SimpleSentence from './pages/practices/SimpleSentence';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/mock-test" element={<MockTest />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/about-us" element={<AboutUs />} />
+        {/* practice */}
+        <Route path="/practice/simple-sentence" element={<SimpleSentence />} /> 
       </Routes>
     </Router>
   );

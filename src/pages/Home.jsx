@@ -28,7 +28,7 @@ function Home() {
                 </span>
                 <br />
                 <span className="font-des" style={{ color: '#133421', fontSize: '50px' }}>
-                  Nắm vững <span style={{ color: '#168445' }}>ngữ pháp tiếng Trung</span>
+                  Nắm vững <span style={{ color: '#168445' }}>ngữ pháp <br /> tiếng Trung</span>
                 </span>
               </Col>
             </Row>

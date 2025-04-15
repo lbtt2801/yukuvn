@@ -1,0 +1,31 @@
+.img-zoom-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .img-zoom-popup {
+    border: 1px solid #d4d4d4;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    position: absolute;
+    transition: opacity 0.2s ease;
+  }
+  
+  .img-zoom-popup[style*='display: none'] {
+    opacity: 0;
+  }
+  
+  .img-zoom-popup[style*='display: block'] {
+    opacity: 1;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .img-zoom-popup {
+      width: 150px !important;
+      height: 150px !important;
+    }
+  }
